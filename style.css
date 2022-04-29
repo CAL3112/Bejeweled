@@ -49,3 +49,6 @@ progress{
 img{
     width: 100%;
 }
+.aligned{
+    opacity: 0;
+}
