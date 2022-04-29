@@ -1,0 +1,51 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.zoneDeJeu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ligne{
+    display: flex;
+}
+.container-button{
+    display: flex;
+    justify-content: center;
+}
+button{
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+.container-scoreBarre{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+progress{
+    height: 40px;
+    width: 500px;
+    margin: 20px;
+}
+.carte{
+    transition: 0.3s ease-in-out;
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 3px;
+}
+.carte:hover{
+    padding: 5px;
+}
+.selected{
+    background-color: lightskyblue;
+}
+img{
+    width: 100%;
+}
